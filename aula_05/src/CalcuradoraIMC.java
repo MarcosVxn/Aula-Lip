@@ -18,5 +18,6 @@ public class CalcuradoraIMC {
         } else {
             System.out.println("seu imc é " + imc + " esta abaixo do peso");
         }
+        scan.close();
     }
 }
